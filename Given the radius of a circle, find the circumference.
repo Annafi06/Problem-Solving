@@ -1,0 +1,18 @@
+#include <bits/stdc++.h>
+#include <math.h>
+using namespace std;
+
+const double PI = 3.14159265358979323846;
+
+int main()
+{
+    float r,c;
+
+    scanf("%f",&r);
+
+    c = 2*PI*r;
+
+    printf("Circumference: %f\n", c);
+
+    return 0;
+}
