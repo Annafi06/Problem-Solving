@@ -1,0 +1,18 @@
+#include <bits/stdc++.h>
+#include <math.h>
+using namespace std;
+
+int main()
+{
+    double number,squareRoot;
+    int nearestInteger;
+
+    scanf("%lf", &number);
+
+    squareRoot = sqrt(number);
+    nearestInteger = round(squareRoot);
+
+    printf("Nearest integer: %d\n",nearestInteger);
+
+    return 0;
+}
