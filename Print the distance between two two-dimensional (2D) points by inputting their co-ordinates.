@@ -1,0 +1,26 @@
+#include <bits/stdc++.h>
+#include <math.h>
+using namespace std;
+
+int main()
+{
+    int a,b,c,d,x,y,ex,wy,bhitre;
+    float diss;
+
+    scanf("%d%d%d%d",&a,&b,&c,&d);
+
+    x = b-a;
+    y = d-c;
+
+    ex = pow(x,2);
+    wy = pow(y,2);
+
+    bhitre = ex+wy;
+
+    diss = sqrt(bhitre);
+
+    printf("Distance: %f\n", diss);
+
+    return 0;
+}
+
